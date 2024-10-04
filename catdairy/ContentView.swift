@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  catdairy
-//
-//  Created by Andy Xu on 2024-10-04.
-//
-
 import SwiftUI
+
+import Amplify
+import Authenticator
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Authenticator { state in
+            VStack {
+                NotesView()
+                    .environmentObject(NotesService())
+                    .environmentObject(StorageService())
+            }
         }
-        .padding()
     }
 }
 

@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5FEF4D2CB0659700820DAE /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF4B2CB0659700820DAE /* AmplifyModels.swift */; };
+		AA5FEF4E2CB0659700820DAE /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF4C2CB0659700820DAE /* Note+Schema.swift */; };
+		AA5FEF502CB084E100820DAE /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */; };
+		AA5FEF522CB0850D00820DAE /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF512CB0850D00820DAE /* StorageService.swift */; };
+		AA5FEF542CB0852600820DAE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF532CB0852600820DAE /* RemoteImage.swift */; };
+		AA5FEF562CB1CBF000820DAE /* PicturePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF552CB1CBF000820DAE /* PicturePicker.swift */; };
+		AA5FEF582CB1CC0900820DAE /* SaveNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF572CB1CC0900820DAE /* SaveNoteView.swift */; };
 		AA8761732CAFAD9E00AB35DF /* catdairyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8761722CAFAD9E00AB35DF /* catdairyApp.swift */; };
 		AA8761752CAFAD9E00AB35DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8761742CAFAD9E00AB35DF /* ContentView.swift */; };
 		AA8761772CAFADA000AB35DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8761762CAFADA000AB35DF /* Assets.xcassets */; };
 		AA87617A2CAFADA000AB35DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8761792CAFADA000AB35DF /* Preview Assets.xcassets */; };
+		AA8761812CAFADAE00AB35DF /* amplify_outputs.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8761802CAFADAE00AB35DF /* amplify_outputs.json */; };
+		AA8761842CAFAE1100AB35DF /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AA8761832CAFAE1100AB35DF /* AWSCognitoAuthPlugin */; };
+		AA8761862CAFAE1100AB35DF /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = AA8761852CAFAE1100AB35DF /* Amplify */; };
+		AA8761892CAFAE4500AB35DF /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = AA8761882CAFAE4500AB35DF /* Authenticator */; };
+		AA87618B2CAFAF6700AB35DF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87618A2CAFAF6700AB35DF /* Note.swift */; };
+		AA87618D2CAFAF7700AB35DF /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87618C2CAFAF7700AB35DF /* NoteView.swift */; };
+		AA87618F2CAFAF8900AB35DF /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87618E2CAFAF8900AB35DF /* NotesView.swift */; };
+		AA8761912CAFB07800AB35DF /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8761902CAFB07800AB35DF /* AuthenticationService.swift */; };
+		AA8761932CAFB08E00AB35DF /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8761922CAFB08E00AB35DF /* LandingView.swift */; };
+		AA8761952CAFB2E900AB35DF /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8761942CAFB2E900AB35DF /* NotesService.swift */; };
+		AA8761982CAFB30C00AB35DF /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AA8761972CAFB30C00AB35DF /* AWSAPIPlugin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA5FEF4B2CB0659700820DAE /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		AA5FEF4C2CB0659700820DAE /* Note+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+Schema.swift"; sourceTree = "<group>"; };
+		AA5FEF512CB0850D00820DAE /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		AA5FEF532CB0852600820DAE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		AA5FEF552CB1CBF000820DAE /* PicturePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePicker.swift; sourceTree = "<group>"; };
+		AA5FEF572CB1CC0900820DAE /* SaveNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveNoteView.swift; sourceTree = "<group>"; };
 		AA87616F2CAFAD9E00AB35DF /* catdairy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catdairy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8761722CAFAD9E00AB35DF /* catdairyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catdairyApp.swift; sourceTree = "<group>"; };
 		AA8761742CAFAD9E00AB35DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA8761762CAFADA000AB35DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8761792CAFADA000AB35DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA8761802CAFADAE00AB35DF /* amplify_outputs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplify_outputs.json; sourceTree = "<group>"; };
+		AA87618A2CAFAF6700AB35DF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		AA87618C2CAFAF7700AB35DF /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		AA87618E2CAFAF8900AB35DF /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		AA8761902CAFB07800AB35DF /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		AA8761922CAFB08E00AB35DF /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		AA8761942CAFB2E900AB35DF /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5FEF502CB084E100820DAE /* AWSS3StoragePlugin in Frameworks */,
+				AA8761982CAFB30C00AB35DF /* AWSAPIPlugin in Frameworks */,
+				AA8761842CAFAE1100AB35DF /* AWSCognitoAuthPlugin in Frameworks */,
+				AA8761862CAFAE1100AB35DF /* Amplify in Frameworks */,
+				AA8761892CAFAE4500AB35DF /* Authenticator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +73,7 @@
 			children = (
 				AA8761712CAFAD9E00AB35DF /* catdairy */,
 				AA8761702CAFAD9E00AB35DF /* Products */,
+				AA8761962CAFB30C00AB35DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +88,23 @@
 		AA8761712CAFAD9E00AB35DF /* catdairy */ = {
 			isa = PBXGroup;
 			children = (
+				AA5FEF572CB1CC0900820DAE /* SaveNoteView.swift */,
+				AA5FEF552CB1CBF000820DAE /* PicturePicker.swift */,
+				AA5FEF4B2CB0659700820DAE /* AmplifyModels.swift */,
+				AA5FEF4C2CB0659700820DAE /* Note+Schema.swift */,
 				AA8761722CAFAD9E00AB35DF /* catdairyApp.swift */,
+				AA87618C2CAFAF7700AB35DF /* NoteView.swift */,
+				AA87618A2CAFAF6700AB35DF /* Note.swift */,
 				AA8761742CAFAD9E00AB35DF /* ContentView.swift */,
+				AA8761802CAFADAE00AB35DF /* amplify_outputs.json */,
 				AA8761762CAFADA000AB35DF /* Assets.xcassets */,
 				AA8761782CAFADA000AB35DF /* Preview Content */,
+				AA87618E2CAFAF8900AB35DF /* NotesView.swift */,
+				AA8761902CAFB07800AB35DF /* AuthenticationService.swift */,
+				AA8761922CAFB08E00AB35DF /* LandingView.swift */,
+				AA8761942CAFB2E900AB35DF /* NotesService.swift */,
+				AA5FEF512CB0850D00820DAE /* StorageService.swift */,
+				AA5FEF532CB0852600820DAE /* RemoteImage.swift */,
 			);
 			path = catdairy;
 			sourceTree = "<group>";
@@ -65,6 +115,13 @@
 				AA8761792CAFADA000AB35DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA8761962CAFB30C00AB35DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,13 @@
 			dependencies = (
 			);
 			name = catdairy;
+			packageProductDependencies = (
+				AA8761832CAFAE1100AB35DF /* AWSCognitoAuthPlugin */,
+				AA8761852CAFAE1100AB35DF /* Amplify */,
+				AA8761882CAFAE4500AB35DF /* Authenticator */,
+				AA8761972CAFB30C00AB35DF /* AWSAPIPlugin */,
+				AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */,
+			);
 			productName = catdairy;
 			productReference = AA87616F2CAFAD9E00AB35DF /* catdairy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,10 @@
 				Base,
 			);
 			mainGroup = AA8761662CAFAD9E00AB35DF;
+			packageReferences = (
+				AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				AA8761872CAFAE4500AB35DF /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+			);
 			productRefGroup = AA8761702CAFAD9E00AB35DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8761812CAFADAE00AB35DF /* amplify_outputs.json in Resources */,
 				AA87617A2CAFADA000AB35DF /* Preview Assets.xcassets in Resources */,
 				AA8761772CAFADA000AB35DF /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +208,18 @@
 			files = (
 				AA8761752CAFAD9E00AB35DF /* ContentView.swift in Sources */,
 				AA8761732CAFAD9E00AB35DF /* catdairyApp.swift in Sources */,
+				AA5FEF4E2CB0659700820DAE /* Note+Schema.swift in Sources */,
+				AA5FEF542CB0852600820DAE /* RemoteImage.swift in Sources */,
+				AA8761932CAFB08E00AB35DF /* LandingView.swift in Sources */,
+				AA5FEF582CB1CC0900820DAE /* SaveNoteView.swift in Sources */,
+				AA87618F2CAFAF8900AB35DF /* NotesView.swift in Sources */,
+				AA5FEF4D2CB0659700820DAE /* AmplifyModels.swift in Sources */,
+				AA8761912CAFB07800AB35DF /* AuthenticationService.swift in Sources */,
+				AA5FEF562CB1CBF000820DAE /* PicturePicker.swift in Sources */,
+				AA87618D2CAFAF7700AB35DF /* NoteView.swift in Sources */,
+				AA87618B2CAFAF6700AB35DF /* Note.swift in Sources */,
+				AA5FEF522CB0850D00820DAE /* StorageService.swift in Sources */,
+				AA8761952CAFB2E900AB35DF /* NotesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +425,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.42.1;
+			};
+		};
+		AA8761872CAFAE4500AB35DF /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-authenticator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+		AA8761832CAFAE1100AB35DF /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		AA8761852CAFAE1100AB35DF /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		AA8761882CAFAE4500AB35DF /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8761872CAFAE4500AB35DF /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		AA8761972CAFB30C00AB35DF /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA8761672CAFAD9E00AB35DF /* Project object */;
 }
