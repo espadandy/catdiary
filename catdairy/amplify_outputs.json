@@ -117,7 +117,23 @@
         }
       },
       "enums": {},
-      "nonModels": {}
+      "nonModels": {},
+      "queries": {
+        "improveEnglish": {
+          "name": "improveEnglish",
+          "isArray": false,
+          "type": "String",
+          "isRequired": false,
+          "arguments": {
+            "description": {
+              "name": "description",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false
+            }
+          }
+        }
+      }
     }
   },
   "storage": {

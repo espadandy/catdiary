@@ -13,23 +13,12 @@ struct NoteView: View {
                 if let description = note.description {
                     Text(description)
                 }
-            }
 
-//            if let image = note.image {
-//                Spacer()
-//
-//                Divider()
-//
-//                Image(systemName: image)
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fill)
-//                    .frame(width: 30, height: 30)
-//
-//            }
-            if let image = note.image {
-                Spacer()
-                RemoteImage(name: image)
-                    .frame(width: 30, height: 30)
+                if let image = note.image {
+                    Spacer()
+                    RemoteImage(name: image)
+//                        .frame(width: 90, height: 90)
+                }
             }
         }
     }

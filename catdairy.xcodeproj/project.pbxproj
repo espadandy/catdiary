@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA12B3DD2CB278F100A2DA15 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA12B3DC2CB278F100A2DA15 /* OpenAIKit */; };
 		AA5FEF4D2CB0659700820DAE /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF4B2CB0659700820DAE /* AmplifyModels.swift */; };
 		AA5FEF4E2CB0659700820DAE /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5FEF4C2CB0659700820DAE /* Note+Schema.swift */; };
 		AA5FEF502CB084E100820DAE /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */; };
@@ -62,6 +63,7 @@
 				AA8761842CAFAE1100AB35DF /* AWSCognitoAuthPlugin in Frameworks */,
 				AA8761862CAFAE1100AB35DF /* Amplify in Frameworks */,
 				AA8761892CAFAE4500AB35DF /* Authenticator in Frameworks */,
+				AA12B3DD2CB278F100A2DA15 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,7 @@
 				AA8761882CAFAE4500AB35DF /* Authenticator */,
 				AA8761972CAFB30C00AB35DF /* AWSAPIPlugin */,
 				AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */,
+				AA12B3DC2CB278F100A2DA15 /* OpenAIKit */,
 			);
 			productName = catdairy;
 			productReference = AA87616F2CAFAD9E00AB35DF /* catdairy.app */;
@@ -178,6 +181,7 @@
 			packageReferences = (
 				AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */,
 				AA8761872CAFAE4500AB35DF /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+				AA12B3DB2CB278F100A2DA15 /* XCRemoteSwiftPackageReference "OpenAI" */,
 			);
 			productRefGroup = AA8761702CAFAD9E00AB35DF /* Products */;
 			projectDirPath = "";
@@ -427,6 +431,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AA12B3DB2CB278F100A2DA15 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FuturraGroup/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.3;
+			};
+		};
 		AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
@@ -446,6 +458,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AA12B3DC2CB278F100A2DA15 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA12B3DB2CB278F100A2DA15 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAIKit;
+		};
 		AA5FEF4F2CB084E100820DAE /* AWSS3StoragePlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AA8761822CAFAE1100AB35DF /* XCRemoteSwiftPackageReference "amplify-swift" */;

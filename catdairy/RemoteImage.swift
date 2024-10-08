@@ -23,7 +23,7 @@ struct RemoteImage: View {
         } else if let image {
             Image(uiImage: image)
                 .resizable()
-                .aspectRatio(contentMode: .fill)
+                .aspectRatio(contentMode: .fit)
         } else {
             EmptyView()
         }

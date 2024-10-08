@@ -1,5 +1,5 @@
 {
-  "originHash" : "d6d9d72c9e76f534839feaa3af5ed7b7c30d6f344b038239032fd5e91ece2b56",
+  "originHash" : "a90f7b45ee7e4b742acc78280292624e0432afb3a705c58bc2b5926729f44bb0",
   "pins" : [
     {
       "identity" : "amplify-swift",
@@ -44,6 +44,15 @@
       "state" : {
         "revision" : "828358a2c39d138325b0f87a2d813f4b972e5f4f",
         "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "openai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FuturraGroup/OpenAI.git",
+      "state" : {
+        "revision" : "0f50bc2531639e1093d93d5a02dc2a99e0697ef5",
+        "version" : "1.9.3"
       }
     },
     {

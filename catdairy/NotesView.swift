@@ -62,19 +62,13 @@ struct NotesView: View {
 }
 
 #Preview {
-    NotesView(notes: [
-        Note(
-            name: "First note",
-            description: "This is an example of a long note description that has \nexplicit line breaks.",
-            image: "mic"
-        ),
-        Note(
-            name: "Second note",
-            description: "This is a short description.",
-            image: "phone"
-        ),
-        Note(
-            name: "Third note"
+    NotesView()
+        .environmentObject(
+            NotesService([
+                Note(
+                    name:"This is title",
+                    description: "I am writing a note."
+                )
+            ])
         )
-    ])
 }

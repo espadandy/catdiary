@@ -3,7 +3,11 @@ import SwiftUI
 
 @MainActor
 class NotesService: ObservableObject {
-    @Published var notes: [Note] = []
+    @Published var notes: [Note]
+
+    init(_ notes: [Note] = []) {
+        self.notes = notes
+    }
 
     func fetchNotes() async {
         do {
@@ -18,6 +22,40 @@ class NotesService: ObservableObject {
         } catch {
             print("Fetch Notes failed with error: \(error)")
         }
+    }
+
+    func improve(text: String) async -> String  {
+        let doc = """
+        query ImproveEnglishQuery($description: String!) {
+                improveEnglish(description: $description)
+            }
+        """
+        let result = try! await Amplify.API.query(request: GraphQLRequest<String>(
+            document: doc,
+            variables: [
+                "description": text
+            ],
+            responseType: String.self
+        ))
+        switch result {
+        case .success(let response):
+            struct Response: Codable {
+                let improveEnglish: String
+            }
+            if let jsonData = response.data(using: .utf8) {
+                do {
+                    let response = try JSONDecoder().decode(Response.self, from: jsonData)
+                    print("Improve English content: \(response.improveEnglish)")
+                    return response.improveEnglish
+                } catch {
+                    print("Failed to decode JSON: \(error.localizedDescription)")
+                    print(error)
+                }
+            }
+        case .failure(let error):
+            print(error)
+        }
+        return text
     }
 
     func save(_ note: Note) async {
